@@ -1,7 +1,16 @@
 # iTerm Cheat Sheet
 
-Tabs and Windows
-================
+## How to install
+
+```sh
+brew update
+brew tap caskroom/cask  
+brew cask info iterm2
+brew cleanup
+```
+## Commands
+### Tabs and Windows
+
 **Function** | **Shortcut**
 -------- | --------
 Previous Tab | `⌘`+ `Left Arrow`
@@ -18,8 +27,8 @@ Resize current splitted pane | `Ctrl` + `⌘` + `Arrow`
 Set Mark | `⌘` + `M`
 Jump to Mark | `⌘` + `J`
 
-Basic Moves
-===========
+### Basic Moves
+
 **Function** | **Shortcut**
 -------- | --------
 Move back one character | `Ctrl` + `b`
@@ -28,8 +37,8 @@ Delete current character | `Ctrl` + `d`
 Delete previous character | `Backspace`
 Undo | `Ctrl` + `-`
 
-Moving Faster
-=============
+### Moving Faster
+
 **Function** | **Shortcut**
 -------- | --------
 Move to the start of line | `Ctrl` + `a`
@@ -38,8 +47,8 @@ Move forward a word | `Option` + `f`
 Move backward a word | `Option` + `b`
 Clear the screen | `⌘` + `k`
 
-Cut and Paste
-=============
+### Cut and Paste
+
 **Function** | **Shortcut**
 -------- | --------
 Cut from cursor to the end of line | `Ctrl` + `k`
@@ -50,8 +59,8 @@ Paste the last cut text | `Ctrl` + `w`
 Loop through and paste previously cut text | `Option` + `y`
 Loop through and paste the last argument of previous commands | `Option` + `.`
 
-Search the Command History
-==========================
+### Search the Command History
+
 **Function** | **Shortcut**
 -------- | --------
 Search as you type | `Ctrl` + `r` and type the search term; Repeat `Ctrl` + `r` to loop through result
@@ -60,8 +69,7 @@ End the search at current history entry  | `Ctrl` + `y`
 Cancel the search and restore original line | `Ctrl` + `g`
 
 
-Bonus tricks
-============
+## Bonus tricks
 
 Name the current tab in iTerm. [>](https://superuser.com/a/599156/325858)
 ```sh

@@ -71,7 +71,7 @@ Cancel the search and restore original line | `Ctrl` + `g`
 
 ## Bonus tricks
 
-### Name the current tab in iTerm. [>](https://superuser.com/a/599156/325858)
+### Name the current tab [[>]](https://superuser.com/a/599156/325858)
 
 ![Title bash snippet](https://raw.githubusercontent.com/nobitagit/iterm-cheat-sheet/master/title-fn.gif)
 

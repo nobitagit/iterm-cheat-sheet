@@ -5,7 +5,7 @@
 ```sh
 brew update
 brew tap caskroom/cask  
-brew cask info iterm2
+brew cask install iterm2
 brew cleanup
 ```
 ## Commands
